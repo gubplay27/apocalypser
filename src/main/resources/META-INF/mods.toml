@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="apocalypse_plus"
+version="1.0.0"
+displayName="Apocalypse Plus"
+description='''
+Hordas que crecen con los días, zombis especiales, ruido que atrae infectados, eventos aleatorios y niebla constante.
+'''
+
+[[dependencies.apocalypse_plus]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.apocalypse_plus]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
